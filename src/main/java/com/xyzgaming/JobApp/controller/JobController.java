@@ -24,6 +24,7 @@ public class JobController {
 
 	@GetMapping("addjob")
 	public String addJob() {
+		System.out.println("addjob page called");
 		return "addjob";
 	}
 
